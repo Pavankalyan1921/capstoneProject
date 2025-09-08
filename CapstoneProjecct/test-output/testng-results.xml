@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-09-08T09:02:28 IST" name="Suite" finished-at="2025-09-08T09:03:19 IST" duration-ms="51420">
+    <groups>
+    </groups>
+    <test started-at="2025-09-08T09:02:28 IST" name="Test" finished-at="2025-09-08T09:03:19 IST" duration-ms="51420">
+      <class name="tests.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@5dda768f]" started-at="2025-09-08T09:02:28 IST" name="setUp" finished-at="2025-09-08T09:02:36 IST" duration-ms="7432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:tests.LoginTest@5dda768f]" started-at="2025-09-08T09:02:36 IST" name="setupTest" finished-at="2025-09-08T09:02:36 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="verifyLogin()[pri:1, instance:tests.LoginTest@5dda768f]" started-at="2025-09-08T09:02:36 IST" name="verifyLogin" finished-at="2025-09-08T09:02:39 IST" duration-ms="3587" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method signature="verifySortLowestToHighest()[pri:2, instance:tests.LoginTest@5dda768f]" started-at="2025-09-08T09:02:40 IST" name="verifySortLowestToHighest" finished-at="2025-09-08T09:02:42 IST" depends-on-methods="tests.LoginTest.verifyLogin" duration-ms="2348" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySortLowestToHighest -->
+        <test-method signature="verifySortHighestToLowest()[pri:3, instance:tests.LoginTest@5dda768f]" started-at="2025-09-08T09:02:42 IST" name="verifySortHighestToLowest" finished-at="2025-09-08T09:02:45 IST" depends-on-methods="tests.LoginTest.verifyLogin" duration-ms="2271" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySortHighestToLowest -->
+        <test-method signature="verifyInvalidSortValue()[pri:4, instance:tests.LoginTest@5dda768f]" started-at="2025-09-08T09:02:45 IST" name="verifyInvalidSortValue" finished-at="2025-09-08T09:02:55 IST" depends-on-methods="tests.LoginTest.verifyLogin" duration-ms="10112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidSortValue -->
+        <test-method signature="verifySortDropdownVisible()[pri:5, instance:tests.LoginTest@5dda768f]" started-at="2025-09-08T09:02:55 IST" name="verifySortDropdownVisible" finished-at="2025-09-08T09:02:56 IST" depends-on-methods="tests.LoginTest.verifyLogin" duration-ms="45" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySortDropdownVisible -->
+        <test-method signature="verifyAddGalaxyS20AndIncreaseQuantity()[pri:6, instance:tests.LoginTest@5dda768f]" started-at="2025-09-08T09:02:56 IST" name="verifyAddGalaxyS20AndIncreaseQuantity" finished-at="2025-09-08T09:03:01 IST" depends-on-methods="tests.LoginTest.verifySortDropdownVisible" duration-ms="5407" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddGalaxyS20AndIncreaseQuantity -->
+        <test-method signature="verifyCloseCartAndOrdersVisible()[pri:7, instance:tests.LoginTest@5dda768f]" started-at="2025-09-08T09:03:01 IST" name="verifyCloseCartAndOrdersVisible" finished-at="2025-09-08T09:03:03 IST" depends-on-methods="tests.LoginTest.verifyAddGalaxyS20AndIncreaseQuantity" duration-ms="1171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCloseCartAndOrdersVisible -->
+        <test-method signature="verifyAddGalaxyS20Ultra()[pri:8, instance:tests.LoginTest@5dda768f]" started-at="2025-09-08T09:03:03 IST" name="verifyAddGalaxyS20Ultra" finished-at="2025-09-08T09:03:06 IST" depends-on-methods="tests.LoginTest.verifyCloseCartAndOrdersVisible" duration-ms="3187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddGalaxyS20Ultra -->
+        <test-method signature="verifyCheckoutPageVisible()[pri:9, instance:tests.LoginTest@5dda768f]" started-at="2025-09-08T09:03:06 IST" name="verifyCheckoutPageVisible" finished-at="2025-09-08T09:03:08 IST" depends-on-methods="tests.LoginTest.verifyAddGalaxyS20Ultra" duration-ms="2181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCheckoutPageVisible -->
+        <test-method signature="verifyAddressEntryAndOrderPlacement()[pri:10, instance:tests.LoginTest@5dda768f]" started-at="2025-09-08T09:03:09 IST" name="verifyAddressEntryAndOrderPlacement" finished-at="2025-09-08T09:03:12 IST" depends-on-methods="tests.LoginTest.verifyCheckoutPageVisible" duration-ms="3078" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddressEntryAndOrderPlacement -->
+        <test-method signature="verifyReceiptDownloadAndContinueShopping()[pri:11, instance:tests.LoginTest@5dda768f]" started-at="2025-09-08T09:03:12 IST" name="verifyReceiptDownloadAndContinueShopping" finished-at="2025-09-08T09:03:14 IST" depends-on-methods="tests.LoginTest.verifyAddressEntryAndOrderPlacement" duration-ms="2414" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyReceiptDownloadAndContinueShopping -->
+        <test-method signature="verifyOrderExistsInOrdersMenu()[pri:12, instance:tests.LoginTest@5dda768f]" started-at="2025-09-08T09:03:15 IST" name="verifyOrderExistsInOrdersMenu" finished-at="2025-09-08T09:03:17 IST" depends-on-methods="tests.LoginTest.verifyReceiptDownloadAndContinueShopping" duration-ms="2222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOrderExistsInOrdersMenu -->
+        <test-method signature="verifyLogoutFunctionality()[pri:13, instance:tests.LoginTest@5dda768f]" started-at="2025-09-08T09:03:17 IST" name="verifyLogoutFunctionality" finished-at="2025-09-08T09:03:18 IST" depends-on-methods="tests.LoginTest.verifyOrderExistsInOrdersMenu" duration-ms="1230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogoutFunctionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@5dda768f]" started-at="2025-09-08T09:03:19 IST" name="tearDown" finished-at="2025-09-08T09:03:19 IST" duration-ms="455" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
